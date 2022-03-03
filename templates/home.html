@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{{url_for('next')}}">
+        <br>
+        <p>Select any one and submit to view</p>
+        <select name="transport" id="transport">
+            <option value="car">car</option>
+            <option value="bus">bus</option>
+            <option value="train">train</option>
+            <option value="own_transport">own_transport</option>
+        </select>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
